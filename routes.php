@@ -34,7 +34,6 @@ class Route {
     private function get_view($view, $request_params = null, $request_uri = null) {
         $view_404 = isset($request_uri[0]) ? $request_uri[0] : 'Null';
         require file_exists($view) ? $view : $this->http404;
-        exit;
     }
 
     private function get_params($request_params = null) {
