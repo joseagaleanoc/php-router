@@ -53,6 +53,11 @@ $route = new Route(
     <div class="container-xxl">
         <?php $route->page(); ?>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
 </body>
 
 </html>
